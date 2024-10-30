@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquery.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>My Portfolio</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#my-skill">My Skill</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <h2 class="h2">Welcome to My Portfolio</h2>
+      <p class="p">Discover my work, skills, and projects.</p>
+      <button onclick="scrollToSection('projects')">View Projects</button>
+    </section>
+    <section id="my-skill">
+      <div class="skill">
+        <h2>My Skill</h2>
+        <ol>
+          <li>Html</li>
+          <li>Css</li>
+          <li>JavaScript</li>
+          <li>JQuery</li>
+          <li>React js</li>
+        </ol>
+      </div>
+    </section>
+    <section id="about">
+      <h2 class="abt-h2">About Me</h2>
+      <p class="abt-p">Hey I'm Faizan Ali</p>
+      <p class="abt-p">
+        I'm a passionate developer with skills in web development, design, and
+        programming.
+      </p>
+      <div class="education">
+        <h3 class="edu-heading">My Education</h3>
+        <div class="Matric">
+          <ul>
+            <li>Matric</li>
+            <p> Matric in Computer Science</p>
+          </ul>
+       
+          <ul>
+            <li>Intermediate</li>
+            <p>ICS(intermediate of Computer Science) in 2018-2020</p>
+          </ul>
+          <ul>
+            <li>BSCS</li>
+            <p>BSCS(Bachelor of Science in Computer Science) in 2020-2024</p>
+          </ul>
+        </div>
+
+        
+      </div>
+
+    </section>
+    <section class="project-proj">
+      <section id="projects">
+        <h2 class="project-heading">My Projects</h2>
+        <div class="project">
+          <h3>Project 1</h3>
+          <p>GYM-HUB</p>
+        </div>
+        <div class="project">
+          <h3>Project 2</h3>
+          <p>FOOD CORNER</p>
+        </div>
+        <div class="project">
+          <h3>Project 3</h3>
+          <p>AMAZON CLONE</p>
+        </div>
+      </section>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
